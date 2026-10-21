@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota Labs | Sites Inteligentes e SEO em Contenda e Região</title>
+    <meta name="description" content="Criação de sites profissionais a partir de R$ 139, posicionamento no Google e automação com IA. Equipe especializada em tecnologia em Contenda, PR.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        geminiDark: '#0B0F19',
+                        geminiCard: '#1E1F22',
+                        geminiBorder: '#333537',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gemini-gradient-text {
+            background: linear-gradient(135deg, #4285F4 0%, #9C27B0 50%, #EC407A 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gemini-gradient-bg {
+            background: linear-gradient(135deg, #4285F4 0%, #9C27B0 50%, #EC407A 100%);
+        }
+        .gemini-glow {
+            box-shadow: 0 0 25px rgba(66, 133, 244, 0.15);
+        }
+    </style>
+
+    <!-- Schema.org (JSON-LD) para SEO Local e Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Rota Labs",
+      "image": "https://rotalab.com.br/logo.png",
+      "@id": "https://rotalab.com.br",
+      "url": "https://rotalab.com.br",
+      "telephone": "",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Contenda",
+        "addressRegion": "PR",
+        "addressCountry": "BR"
+      },
+      "priceRange": "R$ 139+",
+      "description": "Especialistas em criação de sites, SEO orgânico, e-mails corporativos e automação com IA em Contenda e região."
+    }
+    </script>
+</head>
+<body class="bg-geminiDark text-[#E3E3E3] antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- HEADER / NAVBAR -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-geminiDark/80 backdrop-blur-md border-b border-geminiBorder">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full gemini-gradient-bg"></span>
+                Rota <span class="gemini-gradient-text">Labs</span>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
+                <a href="#solucoes" class="hover:text-white transition">Soluções</a>
+                <a href="#seo" class="hover:text-white transition">SEO Google</a>
+                <a href="#orcamento" class="hover:text-white transition">Orçamento</a>
+                <a href="#noticias" class="hover:text-white transition">Notícias</a>
+            </nav>
+            <a href="#orcamento" class="gemini-gradient-bg text-white text-sm font-medium px-5 py-2.5 rounded-full shadow-lg hover:opacity-90 transition">
+                Fazer Orçamento
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="pt-32 pb-20">
+
+        <!-- HERO SECTION -->
+        <section class="max-w-4xl mx-auto px-6 text-center py-16">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-geminiCard border border-geminiBorder text-xs text-gray-400 mb-6">
+                <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+                Atendimento ativo em Contenda, PR e Região
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-6 leading-tight">
+                Sites Inteligentes e <span class="gemini-gradient-text">Posicionamento no Google</span>
+            </h1>
+            <p class="text-lg text-gray-400 max-w-2xl mx-auto mb-8">
+                Desenvolvemos plataformas de alta performance, 100% blindadas para buscas orgânicas, impulsionadas por IA e criadas por especialistas.
+            </p>
+            
+            <!-- CAIXA DE PREÇO DE ENTRADA -->
+            <div class="inline-block bg-geminiCard border border-geminiBorder rounded-2xl p-6 mb-10 gemini-glow">
+                <p class="text-sm text-gray-400 uppercase tracking-wider mb-1">Sites profissionais a partir de</p>
+                <p class="text-4xl font-black text-white">R$ 139</p>
+                <p class="text-xs text-gray-500 mt-1">Soluções simples, rápidas e prontas para rodar</p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#orcamento" class="gemini-gradient-bg text-white font-semibold px-8 py-4 rounded-xl shadow-lg hover:opacity-90 transition">
+                    Criar Meu Site Agora
+                </a>
+                <a href="#solucoes" class="bg-geminiCard border border-geminiBorder text-white font-semibold px-8 py-4 rounded-xl hover:bg-geminiBorder/50 transition">
+                    Ver Nossos Serviços
+                </a>
+            </div>
+        </section>
+
+        <!-- SOLUÇÕES EM CARDS LIMPOS -->
+        <section id="solucoes" class="max-w-6xl mx-auto px-6 py-16">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">O Que Fazemos por Você</h2>
+                <p class="text-gray-400 text-sm">Tecnologia avançada sem complicação e direto ao ponto.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-geminiCard border border-geminiBorder p-8 rounded-2xl">
+                    <div class="w-10 h-10 rounded-lg gemini-gradient-bg flex items-center justify-center text-white mb-4 font-bold">01</div>
+                    <h3 class="text-lg font-bold text-white mb-2">Sites & Lojas Virtuais</h3>
+                    <p class="text-sm text-gray-400">Sites estáticos ultrarrápidos, e-commerces e blogs estruturados para conversão imediata.</p>
+                </div>
+                <div class="bg-geminiCard border border-geminiBorder p-8 rounded-2xl">
+                    <div class="w-10 h-10 rounded-lg gemini-gradient-bg flex items-center justify-center text-white mb-4 font-bold">02</div>
+                    <h3 id="seo" class="text-lg font-bold text-white mb-2">SEO & Posicionamento Google</h3>
+                    <p class="text-sm text-gray-400">Blindagem técnica completa para garantir que sua empresa seja encontrada organicamente nas buscas.</p>
+                </div>
+                <div class="bg-geminiCard border border-geminiBorder p-8 rounded-2xl">
+                    <div class="w-10 h-10 rounded-lg gemini-gradient-bg flex items-center justify-center text-white mb-4 font-bold">03</div>
+                    <h3 class="text-lg font-bold text-white mb-2">E-mails & Sistemas</h3>
+                    <p class="text-sm text-gray-400">E-mails corporativos com seu domínio próprio e melhorias avançadas em plataformas existentes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- WIZARD / ONBOARDING DE ORÇAMENTO -->
+        <section id="orcamento" class="max-w-3xl mx-auto px-6 py-16">
+            <div class="bg-geminiCard border border-geminiBorder p-8 md:p-10 rounded-3xl gemini-glow">
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl font-bold text-white mb-2">Solicite seu Orçamento Online</h2>
+                    <p class="text-sm text-gray-400">Preencha os passos abaixo para avaliarmos sua demanda.</p>
+                </div>
+
+                <form id="budgetForm" class="space-y-6">
+                    <div class="space-y-4">
+                        <label class="block text-sm font-medium text-gray-300">1. Qual o tipo de projeto você precisa?</label>
+                        <select id="projectType" class="w-full bg-geminiDark border border-geminiBorder rounded-xl p-4 text-white text-sm focus:outline-none focus:border-blue-500">
+                            <option value="site_simples">Site Simples / Landing Page (A partir de R$ 139)</option>
+                            <option value="ecommerce">E-commerce / Loja Virtual</option>
+                            <option value="seo">Posicionamento SEO & Otimização no Google</option>
+                            <option value="emails">E-mails Particulares com Domínio Próprio</option>
+                            <option value="melhorias">Melhorias em Sistema ou Site Já Existente</option>
+                        </select>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">Seu Nome</label>
+                            <input type="text" required placeholder="Ex: João Silva" class="w-full bg-geminiDark border border-geminiBorder rounded-xl p-4 text-white text-sm focus:outline-none focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">WhatsApp / Telefone</label>
+                            <input type="text" required placeholder="(41) 99999-9999" class="w-full bg-geminiDark border border-geminiBorder rounded-xl p-4 text-white text-sm focus:outline-none focus:border-blue-500">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="w-full gemini-gradient-bg text-white font-semibold py-4 rounded-xl shadow-lg hover:opacity-90 transition">
+                        Enviar Solicitação de Orçamento
+                    </button>
+
+                    <p class="text-xs text-gray-500 text-center mt-4">
+                        * Nota: O valor apresentado é uma base inicial e pode variar dependendo do levantamento de requisitos completo do projeto.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE NOTÍCIAS / BLOG DE CONVERSÃO -->
+        <section id="noticias" class="max-w-6xl mx-auto px-6 py-16">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Artigos & Estratégias</h2>
+                <p class="text-gray-400 text-sm">Por que sua empresa precisa de um site profissional otimizado.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-geminiCard border border-geminiBorder p-6 rounded-2xl">
+                    <span class="text-xs text-blue-400 font-semibold uppercase">Conversão & Vendas</span>
+                    <h3 class="text-lg font-bold text-white mt-2 mb-2">Por que depender só das redes sociais está limitando suas vendas</h3>
+                    <p class="text-sm text-gray-400">Redes sociais mudam algoritmos o tempo todo. Um site próprio é seu ativo fixo na internet.</p>
+                </div>
+                <div class="bg-geminiCard border border-geminiBorder p-6 rounded-2xl">
+                    <span class="text-xs text-purple-400 font-semibold uppercase">SEO Orgânico</span>
+                    <h3 class="text-lg font-bold text-white mt-2 mb-2">O Custo de Não Estar no Google: Clientes prontos para comprar</h3>
+                    <p class="text-sm text-gray-400">Quem busca no Google tem intenção real de compra. Descubra como aparecer no topo.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-geminiBorder bg-geminiCard/30 py-8 text-center text-xs text-gray-500">
+        <p>© 2026 Rota Labs (rotalab.com.br) • Contenda, Paraná. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- WIDGET DE CHAT FLUTUANTE (SUPORTE IA) -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <button onclick="toggleChat()" class="gemini-gradient-bg text-white p-4 rounded-full shadow-2xl flex items-center justify-center hover:scale-105 transition">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+        </button>
+        <div id="chatBox" class="hidden absolute bottom-16 right-0 w-80 bg-geminiCard border border-geminiBorder rounded-2xl shadow-2xl overflow-hidden">
+            <div class="gemini-gradient-bg p-4 text-white font-semibold text-sm flex justify-between items-center">
+                <span>Assistente Rota Labs (IA)</span>
+                <button onclick="toggleChat()" class="text-white hover:opacity
